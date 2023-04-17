@@ -1,26 +1,26 @@
 module.exports = [
     {
-      id: 121,
-      item_name: "dog toy",
-      amount: "100",
-      from: "pet store",
+      id: "World's Biggest Toy",
+      item_name: "Dog Toy",
+      amount: "50",
+      from: "Pet Store",
       date: "2024-06-32",
-      category: "expense"
+      category: "Expense"
     },
     {
       id: "Paycheck",
-      item_name: "income",
+      item_name: "Salary",
       amount: "150",
-      from: "work",
+      from: "Work",
       date: "2022-05-20",
-      category: "income"
+      category: "Income"
     },
     {
       id: "Infinite Stuffed Oreos",
-      item_name: "food",
+      item_name: "Food",
       amount: "50",
-      from: "grocery store",
+      from: "Grocery Store",
       date: "2022-04-23",
-      category: "expense"
+      category: "Expense"
     },
 ];
