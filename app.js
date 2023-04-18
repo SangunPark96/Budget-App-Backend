@@ -14,8 +14,8 @@ app.get("/", (req, res) => {
 app.use("/transactions", budgetController);
 
 app.get("*", (req, res) => {
-    res.status(404).json({ error: "Page not found" })
-  });
-
+  console.log("404!");
+  res.status(404).json({ error: "Page Not Found" });
+});
 
 module.exports = app
