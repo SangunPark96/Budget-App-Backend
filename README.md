@@ -1,6 +1,6 @@
 # Budget Application Express Server - SangUn Park - Cohort 9.3 - Pursuit
 
-### This was created using Express and Render
+### This application was created using Express and Render
 
 ## https://budget-app-backend-81tm.onrender.com
 
