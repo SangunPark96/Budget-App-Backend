@@ -16,7 +16,7 @@ transactions.get("/:index", (req, res) => {
   if (budgetArray[index]) {
     res.json(budgetArray[index])
   } else {
-    res.redirect("/")
+    res.redirect("/FourOFour")
   }
 })
 transactions.put("/:index", (req, res) => {

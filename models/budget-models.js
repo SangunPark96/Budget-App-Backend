@@ -9,7 +9,8 @@ module.exports = [
       amount: "50",
       from: "Pet Store",
       date: "2024-06-32",
-      category: "Expense"
+      category: "Personal",
+      type: "Withdrawal"
     },
     {
       id: uuidv1(),
@@ -18,7 +19,8 @@ module.exports = [
       amount: "150",
       from: "Work",
       date: "2022-05-20",
-      category: "Income"
+      category: "Business",
+      type: "Deposit"
     },
     {
       id: uuidv1(),
@@ -27,6 +29,7 @@ module.exports = [
       amount: "50",
       from: "Grocery Store",
       date: "2022-04-23",
-      category: "Expense"
+      category: "Dumb",
+      type: "Withdrawal"
     },
 ];
