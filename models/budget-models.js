@@ -1,6 +1,10 @@
+var uuidv1 = require('uuidv1')
+
+
 module.exports = [
     {
-      id: "World's Biggest Toy",
+      id: uuidv1(),
+      product: "World's Largest Ball",
       item_name: "Dog Toy",
       amount: "50",
       from: "Pet Store",
@@ -8,7 +12,8 @@ module.exports = [
       category: "Expense"
     },
     {
-      id: "Paycheck",
+      id: uuidv1(),
+      product: "Paycheck",
       item_name: "Salary",
       amount: "150",
       from: "Work",
@@ -16,7 +21,8 @@ module.exports = [
       category: "Income"
     },
     {
-      id: "Infinite Stuffed Oreos",
+      id: uuidv1(),
+      product: "Infinity Stuffed Oreos",
       item_name: "Food",
       amount: "50",
       from: "Grocery Store",
